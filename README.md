@@ -1,8 +1,8 @@
 # ARKUSCH — Index For Plant Collectors
 ## 
 
-ARKUSCH is an iOS app for ..
-**Available on the App Store for Mac, iPhone and iPad.**
+ARKUSCH is a dedicated tool for plant collectors to track, organize, and manage their collections with ease. Built for macOS, iPhone, and iPad, it helps you keep a precise inventory of your plants, regardless of your collection's size.
+**Download on the App Store for Mac, iPhone and iPad.**
 
 ---
 
