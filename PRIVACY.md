@@ -20,7 +20,7 @@ If you enable iCloud synchronization, your data is also stored in your **private
 
 **Camera & Photo Library** The camera and photo library are accessed solely to allow you to attach imagery to your plant records. Images are stored on your device and, if you enable iCloud synchronization, in your private iCloud account. They are never sent to me.
 
-**Location Services** The app utilizes GPS coordinates only when you explicitly trigger the "Get GPS Pin" function while logging an outdoor specimen. This data is stored locally on your device for your reference (and in your private iCloud account if iCloud synchronization is enabled) and is not shared with any third party.
+**Location Services**: The app uses location data in two ways. First, it uses GPS coordinates when you explicitly trigger the 'Get GPS Pin' function while logging an outdoor specimen; the coordinates are saved in that plant's record. Second, when you open a plant that has a saved GPS pin, the app uses your device's live location and compass heading to show where you are relative to your plants on the map and radar view. This live location is only used while that screen is open, is not saved by the app, and is never sent to me. Saved GPS pins are stored locally on your device (and in your private iCloud account if iCloud synchronization is enabled) and are not shared with any third party. Maps are shown using Apple's MapKit; if you choose to open a plant in Apple Maps, its location and name are passed to Apple Maps, and Apple's privacy policy applies.
 
 ### Your control
 
