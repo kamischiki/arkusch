@@ -15,16 +15,20 @@ Arkusch.strings.en = {
 
   "hero.line1": "Stop filling out endless spreadsheets.",
   "hero.line2": "Spend that time with your plants instead.",
-  "hero.lead": "Arkusch is a database and tracking system for serious plant collectors. Whether you're managing an indoor jungle or a complex outdoor garden, I built it to give you reliable tools to record your botanical treasures with precision, without the admin ruining the fun.",
+  "hero.lead": "Do you have a lot of plants? (I mean, really a lot!) Do you know their exact names, keep track of their lineage, and watch proudly as every new leaf unfolds?",
+  "hero.lead2": "If your collection has long outgrown casual notes, Arkusch is for you. It’s a dedicated database and tracking system built for serious plant collectors who manage large indoor jungles or complex outdoor gardens.",
+  "intro.text": "Unlike apps designed for beginners, Arkusch skips the generic watering alerts and plant ID detectors—because you already know how to care for your collection. Instead, it gives you professional-grade, reliable tools to record your botanical treasures with precision, without the admin ruining the fun.",
+  
   "hero.platforms": "For iPhone, iPad and Mac. Free to start.",
   "hero.alt": "Arkusch on two iPhones in light and dark mode, showing a list of plants with photos and ID codes",
+
 
   "cta.ios": "Download on the App Store",
   "cta.ios.soon": "iPhone & iPad – coming soon",
   "cta.mac": "Download for Mac",
   "cta.mac.soon": "Mac – coming soon",
 
-  "intro.text": "Most plant apps are built for casual hobbyists. Arkusch is for collectors who want professional-grade records but would rather spend their time in the garden than in front of a laptop.",
+
 
   "f1.title": "Your collection, perfectly indexed",
   "f1.text": "Every plant gets its own entry with photos, cultivar and a short ID code. Search by name or ID and find any plant in seconds, however big your collection grows.",

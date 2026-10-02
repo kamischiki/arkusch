@@ -15,7 +15,10 @@ Arkusch.strings.de = {
 
   "hero.line1": "Schluss mit endlosen Tabellen.",
   "hero.line2": "Verbring die Zeit lieber mit deinen Pflanzen.",
-  "hero.lead": "Arkusch ist ein Datenbank- und Tracking-System für ernsthafte Pflanzensammler. Ob Indoor-Dschungel oder großer Garten: Ich habe es gebaut, damit du deine botanischen Schätze präzise und verlässlich erfassen kannst, ohne dass der Verwaltungsaufwand den Spaß verdirbt.",
+  "hero.lead": "Hast du viele Pflanzen? (Ich meine, wirklich viele!) Kennst du ihre genauen Namen, verfolgst ihre Abstammung und beobachtest stolz, wie sich jedes neue Blatt entfaltet?",
+  "hero.lead2": "Wenn dir einfache Notizen über den Kopf wachsen, ist Arkusch genau das Richtige für dich. Es ist eine Datenbank und ein Tracking-System für ernsthafte Pflanzensammler, die einen großen Dschungel im Haus oder einen komplexen Garten pflegen.",
+    "intro.text": "Im Gegensatz zu Apps für Anfänger verzichtet Arkusch auf generische Gießerinnerungen und Pflanzen-Erkennungsfunktionen – denn du weißt längst, wie man sich um deine Sammlung kümmert. Stattdessen bietet es dir professionelle, zuverlässige Werkzeuge, um deine botanischen Schätze präzise zu erfassen, ohne dass der Verwaltungsaufwand den Spaß verdirbt.",
+
   "hero.platforms": "Für iPhone, iPad und Mac. Gratis zum Start.",
   "hero.alt": "Arkusch auf zwei iPhones im hellen und dunklen Modus: Pflanzenliste mit Fotos und ID-Codes",
 
@@ -24,7 +27,6 @@ Arkusch.strings.de = {
   "cta.mac": "Für Mac laden",
   "cta.mac.soon": "Mac – bald verfügbar",
 
-  "intro.text": "Die meisten Pflanzen-Apps sind für gelegentliche Hobbygärtner gemacht. Arkusch ist für Sammler, die professionelle Daten wollen, aber lieber im Garten stehen als vor dem Laptop.",
 
   "f1.title": "Deine Sammlung, perfekt katalogisiert",
   "f1.text": "Jede Pflanze bekommt einen eigenen Eintrag mit Fotos, Sorte und einem kurzen ID-Code. Suche nach Name oder ID und finde jede Pflanze in Sekunden, egal wie groß deine Sammlung wird.",
