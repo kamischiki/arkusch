@@ -1,0 +1,51 @@
+/* Design tokens — mirrored from the app's AppTheme.swift.
+   Outdoor = the app's light scheme, Indoor = its dark scheme. */
+:root {
+  /* Outdoor (light) */
+  --bg: #E8DFD5;            /* Linen */
+  --surface: #F2EBE4;       /* listBackgroundLight */
+  --text: #1F2716;          /* textPrimaryLight */
+  --text-2: #333A31;        /* textSecondaryLight */
+  --text-3: #414A3F;        /* textTertiaryLight */
+  --accent: #8A2C00;        /* primaryAccentLight, rusty spice */
+  --on-accent: #F2EBE4;
+  --green: #29511A;         /* statusActiveLight */
+  --border: rgba(0, 0, 0, 0.08);
+  --shadow: 0 4px 10px rgba(0, 0, 0, 0.10);
+  --rule: rgba(138, 44, 0, 0.30);   /* the ruled-paper lines from the logo */
+
+  /* Shape and spacing (AppTheme.Dimensions) */
+  --radius-s: 4px;
+  --radius: 18px;           /* cornerRadiusStandard */
+  --radius-l: 20px;         /* cornerRadiusLarge */
+  --pad-1: 8px;
+  --pad-2: 16px;
+  --pad-3: 24px;
+  --w-content: 1040px;      /* content width (AppTheme: 1100) */
+  --shot-w: 320px;          /* width of the app screenshots */
+  --w-text: 720px;          /* tabletContentMaxWidth */
+
+  /* Type */
+  --font: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --step--1: 0.8125rem;
+  --step-0: 1rem;
+  --step-1: 1.125rem;
+  --step-2: clamp(1.15rem, 1rem + 0.6vw, 1.375rem);
+  --step-3: clamp(1.5rem, 1.1rem + 1.4vw, 2rem);
+  --step-4: clamp(1.75rem, 1rem + 2.2vw, 2.5rem);
+}
+
+:root[data-theme="dark"] {
+  /* Indoor (dark) */
+  --bg: #0E0A06;            /* backgroundDark, coffee bean */
+  --surface: #181711;       /* listBackgroundDark */
+  --text: #EFE8E6;          /* textPrimaryDark */
+  --text-2: #D6D6D6;
+  --text-3: #B8B8B8;
+  --accent: #74AD48;        /* primaryAccentDark */
+  --on-accent: #0E0A06;
+  --green: #74AD48;
+  --border: rgba(255, 255, 255, 0.10);
+  --shadow: 0 4px 10px rgba(0, 0, 0, 0.45);
+  --rule: rgba(116, 173, 72, 0.32);
+}
