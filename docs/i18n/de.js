@@ -103,9 +103,9 @@ Arkusch.strings.de = {
   "privacy.link": "Datenschutzerklärung der App lesen",
 
   "story.title": "Von einer Sammlerin für Sammler",
-  "story.p1": "Hallo, ich bin Hanna. Ich male, arbeite mit Daten und sammle Pflanzen. Als meine Sammlung meinen Tabellen entwachsen war, wollte ich etwas, das sie wie eine echte Sammlung behandelt. So ist Arkusch entstanden.",
-  "story.p2": "Es ist für den Garten gemacht: schnell erfasst, flexibel für die Daten, die dir wichtig sind, und zuverlässig bei der Frage, wo welche Pflanze steht. Deine Daten bleiben auf deinem Gerät, und es gibt keine Konten.",
-  "story.p3": "Der Name kommt von аркуш, ukrainisch für „Blatt Papier“: ein Blatt für jede Pflanze. Wenn etwas fehlt oder besser funktionieren könnte, freue ich mich über deine Nachricht.",
+  "story.p1": "Hallo, ich bin Hanna. Ich arbeite mit Daten und sammle Pflanzen. Ich habe Arkusch entwickelt, um endlich Ordnung in meine eigene Sammlung zu bringen.",
+  "story.p2": "Der Name kommt von аркуш, ukrainisch für „Blatt Papier“: ein Blatt für jede Pflanze. Genau so sehe ich diese App: als digitales Notizbuch für die Pflanzenpflege.",
+  "story.p3": "Wenn es dir gefällt oder du Ideen zur Verbesserung hast, schreib mir gerne, ich freue mich immer über Feedback!",
   "story.contact": "Schreib mir",
   "story.cta": "Übernimm die volle Kontrolle über deine Sammlung.",
   "story.alt": "Porträt von Hanna",

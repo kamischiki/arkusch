@@ -105,9 +105,9 @@ Arkusch.strings.en = {
   "privacy.link": "Read the app's full privacy policy",
 
   "story.title": "Made by a collector, for collectors",
-  "story.p1": "Hi, I'm Hanna. I paint, I work with data, and I collect plants. When my collection outgrew my spreadsheets, I wanted something that treated it like a real collection. That's how Arkusch came to be.",
-  "story.p2": "It's made for the garden: quick to log, flexible enough for the data you care about, and reliable when you need to know where a plant lives. Your data stays on your device, and there are no accounts.",
-  "story.p3": "The name comes from аркуш, Ukrainian for a sheet of paper: one sheet for every plant. If something is missing or could work better, I'd love to hear from you.",
+ "story.p1": "Hi, I'm Hanna. I work with data and collect plants. I created Arkusch to finally bring order to my own collection.",
+  "story.p2": "The name comes from аркуш, Ukrainian for a sheet of paper: one sheet for every plant. That is exactly how I envision this app: as a digital notebook for tracking plants.",
+  "story.p3": "If you like it or have ideas for improvement, drop me a line, I always welcome feedback!",
   "story.contact": "Write me",
   "story.cta": "Take full control of your collection.",
   "story.alt": "Portrait of Hanna",
