@@ -7,6 +7,8 @@
   var A = (window.Arkusch = window.Arkusch || {});
 
   function detect() {
+    var fixed = document.documentElement.getAttribute("data-page-lang");
+    if (fixed && LANGS.indexOf(fixed) > -1) return fixed;   // static /de/ and /uk/ pages
     var saved = null;
     try { saved = localStorage.getItem(KEY); } catch (e) {}
     if (LANGS.indexOf(saved) > -1) return saved;
@@ -41,7 +43,16 @@
 
   A.i18n = {
     lang: "en", t: t, apply: apply,
-    set: function (lang) { try { localStorage.setItem(KEY, lang); } catch (e) {} apply(lang); },
+    set: function (lang) {
+      try { localStorage.setItem(KEY, lang); } catch (e) {}
+      var fixed = document.documentElement.getAttribute("data-page-lang");
+      if (fixed && fixed !== lang) {   // static language pages: go to the matching page
+        var file = location.pathname.split("/").pop() || "index.html";
+        location.href = (lang === "en" ? "../" : "../" + lang + "/") + file + location.hash;
+        return;
+      }
+      apply(lang);
+    },
     init: function () { apply(detect()); }
   };
 })();

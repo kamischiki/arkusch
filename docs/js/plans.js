@@ -21,6 +21,7 @@
   A.plans = {
     items: ITEMS,
     init: function () {
+      if (document.querySelector("#plan-free li, #plan-pro li")) return;  // already written into the HTML by prerender.py
       ITEMS.forEach(function (item) {
         var list = document.getElementById("plan-" + item.tier);
         if (!list) return;
