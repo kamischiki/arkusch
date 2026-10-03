@@ -13,6 +13,13 @@
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/components.css">
   <link rel="stylesheet" href="css/sections.css">
+  <!-- seo:start -->
+  <link rel="canonical" href="https://kamischiki.github.io/arkusch/privacy-app.html">
+  <link rel="alternate" hreflang="en" href="https://kamischiki.github.io/arkusch/privacy-app.html">
+  <link rel="alternate" hreflang="de" href="https://kamischiki.github.io/arkusch/de/privacy-app.html">
+  <link rel="alternate" hreflang="uk" href="https://kamischiki.github.io/arkusch/uk/privacy-app.html">
+  <link rel="alternate" hreflang="x-default" href="https://kamischiki.github.io/arkusch/privacy-app.html">
+  <!-- seo:end -->
 </head>
 <body data-title-key="pa.title">
   <header class="site-header">
@@ -45,35 +52,35 @@
   <main>
     <article class="legal">
       <div class="container legal__body">
-        <h1 data-i18n="pa.title"></h1>
-        <p class="legal__meta" data-i18n="pa.updated"></p>
-        <h2 data-i18n="pa.offline.h"></h2>
-        <p><span data-i18n="pa.offline.p"></span></p>
-        <h2 data-i18n="pa.storage.h"></h2>
-        <p><span data-i18n="pa.storage.p"></span></p>
-        <h2 data-i18n="pa.accounts.h"></h2>
-        <p><span data-i18n="pa.accounts.p"></span></p>
-        <h2 data-i18n="pa.diag.h"></h2>
-        <p><span data-i18n="pa.diag.p"></span> <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" data-i18n="pa.diag.link"></a></p>
-        <h2 data-i18n="pa.protect.h"></h2>
-        <p><span data-i18n="pa.protect.p"></span></p>
-        <h2 data-i18n="pa.perm.h"></h2>
+        <h1 data-i18n="pa.title">Privacy policy: Arkusch app</h1>
+        <p class="legal__meta" data-i18n="pa.updated">Last updated: September 2026</p>
+        <h2 data-i18n="pa.offline.h">Offline by design</h2>
+        <p><span data-i18n="pa.offline.p">Your collection data belongs to you. This application is built with a local-first approach.</span></p>
+        <h2 data-i18n="pa.storage.h">Local storage &amp; synchronization</h2>
+        <p><span data-i18n="pa.storage.p">All data, including plant names, location logs, lineage notes and photographic records, is stored locally on your device using Apple's SwiftData framework. If you enable iCloud synchronization, your data is additionally stored in your private iCloud account using Apple's CloudKit framework, so you can sync it across your own devices. It is protected by Apple's iCloud security measures, and Apple's handling of this data is governed by Apple's own privacy policy. I have no access to your iCloud data.</span></p>
+        <h2 data-i18n="pa.accounts.h">No user accounts</h2>
+        <p><span data-i18n="pa.accounts.p">No registration or login is required. I do not collect or store any information about your identity, such as your name or email address. I don't know who you are.</span></p>
+        <h2 data-i18n="pa.diag.h">System diagnostics</h2>
+        <p><span data-i18n="pa.diag.p">If the app crashes, technical crash logs are sent via Firebase Crashlytics to help improve stability. Firebase Crashlytics is operated by Google. Crash data is automatically deleted after 90 days. You can learn more about Google's data practices here:</span> <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" data-i18n="pa.diag.link">Google Privacy Policy</a></p>
+        <h2 data-i18n="pa.protect.h">Data protection</h2>
+        <p><span data-i18n="pa.protect.p">Apart from the crash diagnostics described above, I do not collect any data about you. Your data only leaves your device if you enable iCloud synchronization, in which case it is stored in your private iCloud account. The app does not track your usage patterns or monitor your activity.</span></p>
+        <h2 data-i18n="pa.perm.h">Permissions</h2>
         <ul>
-          <li><strong data-i18n="pa.perm.cam.k"></strong> <span data-i18n="pa.perm.cam.v"></span></li>
-          <li><strong data-i18n="pa.perm.loc.k"></strong> <span data-i18n="pa.perm.loc.v"></span></li>
+          <li><strong data-i18n="pa.perm.cam.k">Camera &amp; photo library:</strong> <span data-i18n="pa.perm.cam.v">The camera and photo library are accessed solely to let you add images to your plant records. Images are stored on your device and, if you enable iCloud synchronization, in your private iCloud account. They are never transmitted to me.</span></li>
+          <li><strong data-i18n="pa.perm.loc.k">Location services:</strong> <span data-i18n="pa.perm.loc.v">The app uses location data in two ways. First, it uses GPS coordinates when you explicitly trigger the GPS function while logging an outdoor plant; the coordinates are saved in that plant's record. Second, when you open a plant that has a saved GPS pin, the app uses your device's live location and compass heading to show where you are relative to your plants on the map and radar view. This live location is only used while that screen is open, is not saved by the app, and is never sent to me. Saved GPS pins are stored locally on your device (and in your private iCloud account if iCloud synchronization is enabled) and are not shared with any third party. Maps are shown using Apple's MapKit; if you choose to open a plant in Apple Maps, its location and name are passed to Apple Maps, and Apple's privacy policy applies.</span></li>
         </ul>
-        <h2 data-i18n="pa.control.h"></h2>
+        <h2 data-i18n="pa.control.h">Your control</h2>
         <ul>
-          <li><strong data-i18n="pa.control.del.k"></strong> <span data-i18n="pa.control.del.v"></span></li>
-          <li><strong data-i18n="pa.control.wipe.k"></strong> <span data-i18n="pa.control.wipe.v"></span></li>
-          <li><strong data-i18n="pa.control.port.k"></strong> <span data-i18n="pa.control.port.v"></span></li>
+          <li><strong data-i18n="pa.control.del.k">Delete entries:</strong> <span data-i18n="pa.control.del.v">You can delete individual specimen logs at any time within the app.</span></li>
+          <li><strong data-i18n="pa.control.wipe.k">Wipe data:</strong> <span data-i18n="pa.control.wipe.v">Deleting the app or resetting its data via your device settings permanently removes the plants and images stored on your device. If iCloud synchronization is enabled, your data remains in your private iCloud account until you delete it there.</span></li>
+          <li><strong data-i18n="pa.control.port.k">Data portability:</strong> <span data-i18n="pa.control.port.v">You can export your entire specimen database at any time as a CSV file.</span></li>
         </ul>
-        <h2 data-i18n="pa.contact.h"></h2>
-        <p><span data-i18n="pa.contact.p"></span> <a data-email-link href="#"></a></p>
+        <h2 data-i18n="pa.contact.h">Contact</h2>
+        <p><span data-i18n="pa.contact.p">For privacy-related questions or concerns, please reach out to:</span> <a data-email-link href="#"></a></p>
 
         <nav class="legal__nav">
           <a href="index.html" data-i18n="legal.back">Back to the start page</a>
-          <a href="privacy-site.html" data-i18n="legal.siteLink"></a>
+          <a href="privacy-site.html" data-i18n="legal.siteLink">Website privacy</a>
         </nav>
       </div>
     </article>
