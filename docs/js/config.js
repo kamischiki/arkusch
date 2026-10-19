@@ -38,6 +38,6 @@ Arkusch.config = {
       ],
    social: {
      youtube: "https://www.youtube.com/@BuiltInTheMargins",
-     instagram: "https://www.instagram.com/…"
+     instagram: "https://www.instagram.com/hannakamyshanska/"
    }
 };
