@@ -76,16 +76,24 @@ a.btn:hover { transform: translateY(-1px); text-decoration: none; }
 .columns > li { display: grid; gap: var(--pad-1); align-content: start; padding-top: var(--pad-2); border-top: 3px solid var(--rule); }
 @media (min-width: 820px) { .columns { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 
-/* ---------- Reels ---------- */
-.reels { display: flex; gap: var(--pad-2); overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: var(--pad-2); }
-.reel { position: relative; flex: 0 0 min(240px, 70vw); scroll-snap-align: start; }
-.reel video { width: 100%; aspect-ratio: 9 / 16; object-fit: cover; border-radius: var(--radius-l); background: var(--surface); box-shadow: var(--shadow); }
-.reel button {
-  position: absolute; right: 10px; bottom: 10px; min-height: 36px; padding: 0 14px;
-  font: inherit; font-size: var(--step--1); font-weight: 600; cursor: pointer;
+/* ---------- Random clip + links ---------- */
+.clip { display: grid; gap: var(--pad-3) clamp(32px, 6vw, 80px); align-items: center; }
+@media (min-width: 820px) { .clip--has-media { grid-template-columns: min(300px, 38%) minmax(0, 1fr); } }
+.clip__media { display: grid; gap: var(--pad-2); width: min(300px, 100%); justify-self: center; }
+.clip__media video { width: 100%; aspect-ratio: 9 / 16; object-fit: cover; border-radius: var(--radius-l); background: var(--surface); box-shadow: var(--shadow); cursor: pointer; }
+.clip__media video[controls] { cursor: auto; }
+.clip__controls { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--pad-1); }
+.clip__controls button {
+  min-height: 40px; padding: 0 16px; font: inherit; font-size: var(--step--1); font-weight: 600; cursor: pointer;
   color: var(--on-accent); background: var(--accent); border: 0; border-radius: 999px;
 }
-.reel figcaption { margin-top: var(--pad-1); font-size: var(--step--1); color: var(--text-3); }
+.clip__side { display: grid; gap: var(--pad-2); align-content: center; }
+.clip__side h2 { font-size: var(--step-3); }
+.clip__lead { font-size: var(--step-1); color: var(--text-2); max-width: 44ch; }
+.clip__links { display: grid; gap: var(--pad-2); justify-items: start; }
+.clip__links a:not(.btn) { font-weight: 600; color: var(--accent); text-underline-offset: 3px; }
+.clip__links a[target="_blank"]::after { content: " \2197"; }
+.clip__cta { margin-top: var(--pad-1); }
 
 /* ---------- Privacy panel ---------- */
 .panel { display: grid; gap: var(--pad-3); padding: clamp(20px, 3vw, 36px); background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); }

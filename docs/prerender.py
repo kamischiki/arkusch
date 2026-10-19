@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Bakes all text from i18n/*.js into the HTML so crawlers see real content without running JS.
-Run in the site root (re-run after every change to an HTML file or i18n/*.js):
+Run it (from any folder; it works in the folder it sits in) (re-run after every change to an HTML file or i18n/*.js):
 
     python3 prerender.py https://kamischiki.github.io/arkusch      # your final public URL, no trailing slash
 
@@ -11,6 +11,9 @@ What it does
 - App Store button gets its real href; Free/PRO lists are written out
 - imprint.html: noindex, and the e-mail is built by JS again (not plain text in the HTML)
 - sitemap.xml and robots.txt
+- make_clips.py: converts videos/*.mov to small web .mp4 + poster (needs ffmpeg), skipping finished ones
+- js/reels-manifest.js: list of all clips in videos/ (poster = images/reels/<same name>.jpg if present);
+  the site shows one random clip from it. Files starting with "_" are skipped.
 It is idempotent: running it twice gives the same result.
 """
 import html as H, json, os, re, sys
@@ -18,6 +21,7 @@ import html as H, json, os, re, sys
 if len(sys.argv) < 2:
     sys.exit(__doc__)
 BASE = sys.argv[1].rstrip("/")
+os.chdir(os.path.dirname(os.path.abspath(__file__)))  # work in the site folder, wherever the command is run from
 LANGS = ["en", "de", "uk"]
 DIRS = {"en": "", "de": "de/", "uk": "uk/"}
 PAGES = ["index.html", "privacy-app.html", "privacy-site.html", "imprint.html"]
@@ -200,6 +204,13 @@ for file in PAGES:
     src = read(file)
     for lang in LANGS:
         write(DIRS[lang] + file, render(src, file, lang))
+
+# ---- clips: originals (*.mov) -> small web .mp4 + poster, and js/reels-manifest.js (see make_clips.py)
+try:
+    import make_clips
+    make_clips.main()
+except ImportError:
+    print("make_clips.py not found next to prerender.py - clip list not updated")
 
 rows = []
 for file in (p for p in PAGES if p not in NOINDEX):

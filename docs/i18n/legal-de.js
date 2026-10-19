@@ -46,7 +46,7 @@ Object.assign(Arkusch.strings.de = Arkusch.strings.de || {}, {
   "ps.media.h": "Videos",
   "ps.media.p": "Kurze Clips auf dieser Seite, falls vorhanden, werden von dieser Website selbst ausgeliefert und laden nichts von Dritten nach.",
   "ps.links.h": "Links und Kontakt",
-  "ps.links.p": "Links zum App Store, zu meiner persönlichen Website und zu anderen externen Seiten führen zu Diensten mit eigenen Datenschutzerklärungen; sobald du einem Link folgst, gelten diese. Wenn du mir per E-Mail oder über meine Website schreibst, verwende ich deine Angaben nur, um dir zu antworten.",
+  "ps.links.p": "Links zum App Store, zu YouTube, zu Instagram, zu meiner persönlichen Website und zu anderen externen Seiten führen zu Diensten mit eigenen Datenschutzerklärungen; sobald du einem Link folgst, gelten diese. Allein durch das Ansehen dieser Seite werden keine Daten an diese Dienste gesendet. Wenn du mir per E-Mail oder über meine Website schreibst, verwende ich deine Angaben nur, um dir zu antworten.",
   "ps.rights.h": "Deine Rechte",
   "ps.rights.p": "Nach der DSGVO hast du das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch sowie das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren. Fragen zu dieser Seite:",
   "im.title": "Impressum",

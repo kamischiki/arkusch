@@ -89,8 +89,10 @@
           <div class="btn-row">
             <a class="btn" data-store="ios" data-i18n="cta.ios" href="https://apps.apple.com/de/app/arkusch/id6786742492">Download on the App Store</a>
             <a class="btn btn--soon" data-store="mac" data-i18n="cta.mac.soon" aria-disabled="true">Mac – coming soon</a>
+            <span class="btn btn--soon" aria-disabled="true" data-i18n="cta.android.soon">Android – coming soon</span>
           </div>
           <p class="hero__platforms" data-i18n="hero.platforms">For iPhone, iPad and Mac. Free to start.</p>
+          <p class="hero__platforms"><span data-i18n="android.testers">I'm looking for Android testers.</span> <a data-email-link href="#" data-i18n="android.testers.link">Get in contact</a></p>
         </div>
         <div class="hero__art" aria-hidden="true">
           <img class="on-light" src="images/brand/leaf-dark.png" alt="" width="700" height="677">
@@ -160,6 +162,34 @@
       </div>
     </section>
 
+    <!-- One random clip + links (clips come from the videos/ folder via js/reels-manifest.js) -->
+    <section id="clip" aria-labelledby="clip-title">
+      <div class="container clip">
+        <div class="clip__media" id="clip-media" hidden>
+          <video id="clip-video" muted loop playsinline preload="none"></video>
+          <div class="clip__controls">
+            <button type="button" id="clip-toggle"></button>
+            <button type="button" id="clip-sound" data-sound="off"></button>
+            <button type="button" id="clip-next" data-i18n="reels.another">Show another video</button>
+          </div>
+        </div>
+        <div class="clip__side">
+          <h2 id="clip-title" data-i18n="clip.title">Want more?</h2>
+          <p class="clip__lead" data-i18n="clip.lead">Watch, read, follow, or just say hello.</p>
+          <ul class="clip__links">
+            <li data-social="medium" hidden><a href="#" data-i18n="clip.link.medium">Read my Medium article about Arkusch</a></li>
+            <li data-social="youtube" hidden><a href="#" data-i18n="clip.link.youtube">Watch more on YouTube</a></li>
+            <li data-social="instagram" hidden><a href="#" data-i18n="clip.link.instagram">Follow on Instagram</a></li>
+            <li data-social="website" hidden><a href="#" data-i18n="clip.link.website">More about me and my other apps</a></li>
+            <li class="clip__cta"><a class="btn" data-email-link href="#" data-i18n="clip.link.contact">Get in contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container to-top-row">
+        <a class="to-top" href="#top" data-i18n-aria="totop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></a>
+      </div>
+    </section>
+
     <!-- Also included -->
     <section aria-labelledby="also-title">
       <div class="container">
@@ -204,17 +234,6 @@
       <div class="container to-top-row">
         <a class="to-top" href="#top" data-i18n-aria="totop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></a>
       </div>
-
-    <!-- Clips: hidden until reels are listed in js/config.js -->
-    <section id="reels" hidden aria-labelledby="reels-title">
-      <div class="container">
-        <div class="section-head"><h2 id="reels-title" data-i18n="reels.title">Arkusch in short clips</h2></div>
-        <div class="reels" id="reels-list"></div>
-      </div>
-      <div class="container to-top-row">
-        <a class="to-top" href="#top" data-i18n-aria="totop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></a>
-      </div>
-    </section>
 
     <!-- Why Arkusch -->
     <section id="why" aria-labelledby="why-title">
@@ -266,6 +285,7 @@
           <div class="btn-row">
             <a class="btn" data-store="ios" data-i18n="cta.ios" href="https://apps.apple.com/de/app/arkusch/id6786742492">Download on the App Store</a>
             <a class="btn btn--soon" data-store="mac" data-i18n="cta.mac.soon" aria-disabled="true">Mac – coming soon</a>
+            <span class="btn btn--soon" aria-disabled="true" data-i18n="cta.android.soon">Android – coming soon</span>
           </div>
         </div>
       </div>
@@ -299,6 +319,7 @@
   <script src="js/i18n.js" defer></script>
   <script src="js/stores.js" defer></script>
   <script src="js/plans.js" defer></script>
+  <script src="js/reels-manifest.js" defer></script>
   <script src="js/reels.js" defer></script>
   <script src="js/main.js" defer></script>
 </body>

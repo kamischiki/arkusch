@@ -46,7 +46,7 @@ Object.assign(Arkusch.strings.en = Arkusch.strings.en || {}, {
   "ps.media.h": "Videos",
   "ps.media.p": "Short clips on this page, if any, are delivered by this website itself and load nothing from third parties.",
   "ps.links.h": "Links and contact",
-  "ps.links.p": "Links to the App Store, to my personal website and to other external pages lead to services with their own privacy policies; once you follow a link, those apply. If you write to me by e-mail or through my website, I use your details only to reply to you.",
+  "ps.links.p": "Links to the App Store, YouTube, Instagram, my personal website and other external pages lead to services with their own privacy policies; once you follow a link, those apply. Nothing is sent to these services just by viewing this page. If you write to me by e-mail or through my website, I use your details only to reply to you.",
   "ps.rights.h": "Your rights",
   "ps.rights.p": "Under the GDPR you have the right to access, rectification, erasure, restriction of processing, data portability and objection, and the right to lodge a complaint with a data protection supervisory authority. Questions about this page:",
   "im.title": "Imprint",
